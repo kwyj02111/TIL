@@ -27,7 +27,7 @@
 ### - 사용 예시
 
 
-![Alt text](./exampleImage/device-info.png)
+![Alt text](./exampleImage/device-info.JPG)
 
 * 위와 같이 사용자의 디바이스 정보가 출력된다.
 디바이스 값은 아래와 같다.
