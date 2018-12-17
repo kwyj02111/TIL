@@ -27,8 +27,8 @@ export default {
     },
     createTodo(name){
       if(name !== null){
-        this.todo.push({name: name});
-        this.name = null;
+        this.todos.push({name: name});
+        this.addTodoName = null;
       }
     },
   },
