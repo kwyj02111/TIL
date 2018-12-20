@@ -1,0 +1,13 @@
+.comment {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.comment-item {
+  margin-bottom: 10px;
+}
+
+.comment-item-name {
+  font-weight: bold;
+}

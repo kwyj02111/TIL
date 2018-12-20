@@ -1,0 +1,12 @@
+.post-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.post-content-container {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #FAFAFA;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
