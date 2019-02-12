@@ -1,0 +1,32 @@
+.movie-list-container {
+    width: 100%;
+    /*height: 350px;*/
+    padding: 0 30px;
+    text-align: left;
+}
+
+.movie-item {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+}
+
+.movie-item-poster-wrap {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.movie-item-poster {
+    width: auto;
+    height: 100%;
+}
+
+.movie-item-name {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
