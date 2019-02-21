@@ -17,6 +17,7 @@ export default {
         setContainerWidth() {
             let width = this.$refs.movieItemWrap.clientWidth;
             this.containerWidth = width;
+            this.left = this.containerWidth * this.movieIdx;
             return;
         },
         preMovie(){
@@ -37,6 +38,9 @@ export default {
         return;
     },
     mounted() {
-        this.setContainerWidth();
+        this.$nextTick(() => {
+            window.addEventListener('resize', this.setContainerWidth);
+            this.setContainerWidth();
+        });
     },
 }
